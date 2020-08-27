@@ -1,0 +1,18 @@
+{
+  "name": "interax",
+  "productName": "Interax",
+  "version": "1.0.0",
+  "description": "Twitch integration software allowing simulated input from channel point spends.",
+  "main": "./main.prod.js",
+  "author": {
+    "name": "Perplexity",
+    "email": "perplexity@outlook.com",
+    "url": "https://github.com/Perplexity"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ../internals/scripts/BabelRegister.js ../internals/scripts/ElectronRebuild.js",
+    "postinstall": "yarn electron-rebuild"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
